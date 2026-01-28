@@ -1,0 +1,71 @@
+{
+  "data": [
+    {
+      "id": "post_1",
+      "message": "Hello from Fountain.",
+      "created_time": "2026-01-27T12:34:56+0000",
+      "permalink_url": "https://www.facebook.com/permalink.php?story_fbid=1&id=me",
+      "attachments": {
+        "data": [
+          {
+            "media_type": "photo",
+            "media": { "image": { "src": "https://example.com/image-1.jpg" } },
+            "url": "https://www.facebook.com/photo.php?fbid=1"
+          }
+        ]
+      },
+      "unknown_field": "ignored"
+    },
+    {
+      "id": "post_2",
+      "created_time": "2026-01-26T08:00:00+0000",
+      "permalink_url": "https://www.facebook.com/permalink.php?story_fbid=2&id=me",
+      "attachments": {
+        "data": [
+          {
+            "media_type": "album",
+            "subattachments": {
+              "data": [
+                {
+                  "media_type": "photo",
+                  "media": { "image": { "src": "https://example.com/album-1.jpg" } }
+                },
+                {
+                  "media_type": "video",
+                  "media": { "image": { "src": "https://example.com/video-thumb.jpg" } }
+                },
+                {
+                  "media_type": "photo",
+                  "media": { "image": { "src": "https://example.com/album-2.png" } }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "post_3",
+      "message": "Mixed media post.",
+      "created_time": "2026-01-25T00:00:00+0000",
+      "attachments": {
+        "data": [
+          {
+            "media_type": "video",
+            "media": { "image": { "src": "https://example.com/video-thumb-2.jpg" } }
+          },
+          {
+            "media_type": "photo",
+            "media": { "image": { "src": "https://example.com/image-2.jpg" } }
+          }
+        ]
+      }
+    }
+  ],
+  "paging": {
+    "cursors": {
+      "before": "before_cursor",
+      "after": "after_cursor"
+    }
+  }
+}

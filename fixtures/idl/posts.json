@@ -1,0 +1,28 @@
+[
+  {
+    "id": "post_1",
+    "createdAt": "2026-01-27T12:34:56+0000",
+    "text": "Hello from Fountain.",
+    "permalink": "https://www.facebook.com/permalink.php?story_fbid=1&id=me",
+    "images": [
+      { "url": "https://example.com/image-1.jpg", "source": "facebook", "postId": "post_1" }
+    ]
+  },
+  {
+    "id": "post_2",
+    "createdAt": "2026-01-26T08:00:00+0000",
+    "permalink": "https://www.facebook.com/permalink.php?story_fbid=2&id=me",
+    "images": [
+      { "url": "https://example.com/album-1.jpg", "source": "facebook", "postId": "post_2" },
+      { "url": "https://example.com/album-2.png", "source": "facebook", "postId": "post_2" }
+    ]
+  },
+  {
+    "id": "post_3",
+    "createdAt": "2026-01-25T00:00:00+0000",
+    "text": "Mixed media post.",
+    "images": [
+      { "url": "https://example.com/image-2.jpg", "source": "facebook", "postId": "post_3" }
+    ]
+  }
+]
