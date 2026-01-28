@@ -30,3 +30,7 @@ Do not commit secrets. The host app should load credentials from env vars (or it
 
 - `docs/sources/meta-graph.md`
 - `docs/mappings/facebook_user_posts_images.md`
+- Legal URLs (for Meta App settings):
+  - `docs/legal/privacy-policy.md`
+  - `docs/legal/data-deletion.md`
+  - `docs/legal/terms-of-service.md` (optional)
